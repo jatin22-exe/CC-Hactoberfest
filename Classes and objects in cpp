@@ -1,1 +1,22 @@
 
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+class student
+{
+    public:
+    string name;
+    int roll_no;
+    int clas;
+};
+int main()
+{
+    student s;
+    cin>>s.name;
+    cin>>s.roll_no;
+    cin>>s.clas;
+    cout<<s.name<<endl;
+    cout<<s.roll_no<<endl;
+    cout<<s.clas<<endl;
+    return 0;
+}
